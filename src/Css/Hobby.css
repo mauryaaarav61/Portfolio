@@ -1,0 +1,62 @@
+.hobby-container {
+    background-color:  #4e626e;
+     padding: 2rem 0rem; 
+
+  
+  }
+  
+  .section-title {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color:#4e626e;
+  }
+  
+  .hobby-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .hobby-card {
+    flex: 1 1 17rem;
+    width: 100vw;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  
+  }
+  
+  .title {
+    font-size: 1.5rem;
+   
+    margin-bottom: .5rem;
+  }
+  
+  .hobyDetails {
+    margin-bottom: .2rem;
+    color: #222;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hobby-card {
+      flex: 1 1 100%;
+    }
+    .hobby-content{
+      gap: 1rem;
+    }
+    .title{
+      font-size: 1.2rem;
+    }
+    .section-title{
+      font-size: 1.5rem;
+      margin-bottom: 0rem;
+    }
+  }
+  
